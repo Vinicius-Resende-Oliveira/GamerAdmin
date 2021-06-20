@@ -1,0 +1,47 @@
+O GamerAdmin é um sistema para gerenciamento de guilda, onde o administrador do clã pode gerenciar os relátorios dos membros cadastrados.
+Como gerenciar:
+-Os membros do clã enviaram prints de suas caçadas diarias para o site e os adminstradores do clã verificaram a sua pontuação e se você compriu a meta diária do grupo.
+-O membro do grupo pode enviar mensagem para os admin's do grupo para solicitar uma promoção ou discutir sobre um rebaixamento.
+
+Para o lider do grupo:
+-Pode estabelecer uma meta diária para os seus membros;
+-Tem a responsabilidade de conferir os prints dos membros do seu clã;
+-Pode adicionar membros do clã como adminstradores;
+
+Para os adminstradores:
+-Os adminstradores pode auxiliar o lider conferindo se os membros compriram com a meta diaria;
+
+Para os membros comuns:
+-Só precisam enviar para o sistema o print de suas casadas para um adminstardor/lider verificar se compriu com a meta do grupo
+
+Requisitos:
+- O grupo terá um id, id do lider, nome,tag, regras, pontos para os niveis de caçada, pontuação total, privacidade, data de criação;
+- A tag, regras, nome e meta podem ser alteradas;
+- Cada grupo terá um lider;
+- Cada grupo pode ter um número ilimitado de adminstradores;
+- Cada grupo pode ter no máximo 100 membros;
+- O lider do grupo pode definir da melhor forma a pontuação;
+- O grupo terá dois tipo de novos membros:
+-- O privado: O lider/admin cadastrará o nickname do membro e quando o membro se cadastrar no sistema ele já terá um grupo selecionado;
+--O público: O membro ao se cadastrar escolherá qual grupo ele pode participar e o lider/admin do grupo confirmar se este membro pertence realmente ao seu grupo;
+- Os adminstradores do grupo serão nomeados pelo lider;
+- O admin terá acesso para a verificação da pontuação dos outros membros;
+- O admin não pode verificar sua propria pontuação;
+- O membro terá um id, nome, nickname, n_celular, email, status de confirmação(Se foi aceito pelo lider do grupo), data de cadastro;
+- O membro enviará os dados da caçada para a avaliação da pontuação, onde só é permitido prints com menos de 5 relátorios;
+- O membro visualizará o relátorio com as metas diarias concluídas;
+- O membro visualizará o relátorio com as pontuação aceita;
+- O membro visualizará o relátorio com as pontuação regeitada;
+- A pontuação terá o id do relátorio(imagem e texto), o id do membro, pontuação, pontuação total, data de envio, status(Rejeitado ou aceito);
+- O sistema converterá as imagens em texto;
+- O texto convertido será salvo no lugar da imagem assim que a pontuação for verificada e o texto estiver corrigido;
+- O sistema gerará um relatório diario e semanal das metas do grupo;
+- A meta terá a seguinte configuração: 1[];2[];3[];4[];5[], onde: 
+--1(nivel do mostro)[numero de pontos para esse nivel];2[numero de pontos para esse nivel];3[numero de pontos para esse nivel];4[numero de pontos para esse nivel];5[numero de pontos para esse nivel];
+- A pontuação terá a seguinte configuração: 1[];2[];3[];4[];5[], onde:
+--1(nivel do monstro)[numero de mostros caçados];2(nivel do monstro)[numero de mostros caçados];3(nivel do monstro)[numero de mostros caçados];4(nivel do monstro)[numero de mostros caçados];5(nivel do monstro)[numero de mostros caçados];
+- O numero de mostros será definido a partir da imagem enviada;
+
+
+Conta FTP:
+Senha: 136655Sg31
