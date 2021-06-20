@@ -41,7 +41,3 @@ Requisitos:
 - A pontuação terá a seguinte configuração: 1[];2[];3[];4[];5[], onde:
 --1(nivel do monstro)[numero de mostros caçados];2(nivel do monstro)[numero de mostros caçados];3(nivel do monstro)[numero de mostros caçados];4(nivel do monstro)[numero de mostros caçados];5(nivel do monstro)[numero de mostros caçados];
 - O numero de mostros será definido a partir da imagem enviada;
-
-
-Conta FTP:
-Senha: 136655Sg31
