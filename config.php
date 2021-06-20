@@ -12,16 +12,16 @@ if(ENVIROMENT == "development"){
     $_config['DBPass'] = '';
 
 }else{
-    define("BASE_URL", "https://smartguild.for7.com.br/");
-    $_config['DBName'] = 'u401602409_smartprint';
-    $_config['DBHost'] = 'localhost';
-    $_config['DBUser'] = 'u401602409_smartprint';
-    $_config['DBPass'] = '136655Sp31';
+    define("BASE_URL", "");
+    $_config['DBName'] = '';
+    $_config['DBHost'] = '';
+    $_config['DBUser'] = '';
+    $_config['DBPass'] = '';
 }
 
 //informaçãoes do Paypal
-$config['paypal_clientId'] = "AWSAHcMw1PWQCh6g4G80_VT2M9GGqUIiE_-6csz6Gx3tevgkcxZPh4kdtahtmGkn3lF1_nvu-aVcO63r";
-$config['paypal_secret'] = "EMtNAjrdaP9Lhrlu4KH7cTd1mRqOEu487hjIq7znFwMya8ZUt_NAUiNwXYgK6ctGa_mAarG4i1F2Ilod";
+$config['paypal_clientId'] = "";
+$config['paypal_secret'] = "";
 
 try{
     $db = new PDO("mysql:dbname=".$_config['DBName'].";host=".$_config['DBHost'], $_config['DBUser'], $_config['DBPass']);

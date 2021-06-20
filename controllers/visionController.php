@@ -13,7 +13,7 @@ class visionController extends controller{
 
     public function __construct() {
         
-        putenv('GOOGLE_APPLICATION_CREDENTIALS=assets/js/GamerAdmin.json');
+        putenv('');
         $this->imageAnnotator = new ImageAnnotatorClient();
         // $this->auth_cloud_explicit($this->projectKey, "assets/js/GamerAdmin.json");
     }
